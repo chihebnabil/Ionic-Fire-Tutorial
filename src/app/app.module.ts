@@ -8,6 +8,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { SigninPage } from '../pages/signin/signin';
 import { SignupPage } from '../pages/signup/signup';
+import { PhoneAuthPage } from '../pages/phone-auth/phone-auth';
+import { PhoneVerifierPage } from '../pages/phone-verifier/phone-verifier';
 
 
 import { AngularFireModule } from '@angular/fire';
@@ -28,7 +30,9 @@ const firebaseConfig = {
     MyApp,
     HomePage,
     SigninPage,
-    SignupPage
+    SignupPage,
+    PhoneAuthPage,
+    PhoneVerifierPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +45,9 @@ const firebaseConfig = {
     MyApp,
     HomePage,
     SigninPage,
-    SignupPage
+    SignupPage,
+    PhoneAuthPage,
+    PhoneVerifierPage
   ],
   providers: [
     StatusBar,
